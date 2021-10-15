@@ -7,14 +7,14 @@ interface Props {
 
 function Layout({ children }: Props): JSX.Element {
   return (
-    <body>
+    <div>
       <header>
         <Navbar />
       </header>
       <main>
         {children}
       </main>
-    </body>
+    </div>
   );
 }
 
