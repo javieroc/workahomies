@@ -1,10 +1,10 @@
 import React from 'react';
-import { Layout } from 'src/components';
+import { Hero, Layout } from 'src/components';
 
 function Home(): JSX.Element {
   return (
     <Layout>
-      <h1>Home</h1>
+      <Hero />
     </Layout>
   );
 }
