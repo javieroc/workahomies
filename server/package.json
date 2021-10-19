@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -w src --ext ts --exec ts-node src/index.ts"
+    "start": "nodemon -w src --ext ts --exec ts-node src/index.ts",
+    "lint:fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [],
   "author": "",

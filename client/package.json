@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint:fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.6",

@@ -1,0 +1,26 @@
+{
+  "name": "workahomie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix:client": "cd client && npm run lint:fix && cd ../",
+    "lint:fix:server": "cd server && npm run lint:fix && cd ../",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javieroc/meet-coworkers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javieroc/meet-coworkers/issues"
+  },
+  "homepage": "https://github.com/javieroc/meet-coworkers#readme",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^11.2.3"
+  }
+}
