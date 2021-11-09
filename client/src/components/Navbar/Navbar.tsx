@@ -16,7 +16,7 @@ function Navbar(): JSX.Element {
         padding="0px 32px"
       >
         <LogoSVG />
-        <HStack>
+        <HStack spacing="24px">
           <NavbarLinks />
           <NavbarButtons />
         </HStack>

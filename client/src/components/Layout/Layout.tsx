@@ -1,3 +1,4 @@
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 import { Navbar } from '../Navbar';
 
@@ -7,14 +8,14 @@ interface Props {
 
 function Layout({ children }: Props): JSX.Element {
   return (
-    <div>
-      <header>
+    <Box>
+      <Box>
         <Navbar />
-      </header>
-      <main>
+      </Box>
+      <Box>
         {children}
-      </main>
-    </div>
+      </Box>
+    </Box>
   );
 }
 

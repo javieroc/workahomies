@@ -7,9 +7,8 @@ import NearHostImage3 from 'src/assets/near-host-3.jpeg';
 import NearHostImage4 from 'src/assets/near-host-4.jpeg';
 import NearHostImage5 from 'src/assets/near-host-5.jpeg';
 import NearHostImage6 from 'src/assets/near-host-6.jpeg';
-
 import { Host } from 'src/types';
-import { Hero, NearHostList } from './components';
+import { Hero, NearHostList, TryHosting } from './components';
 
 const hosts: Host[] = [
   NearHostImage1,
@@ -32,6 +31,7 @@ function Home(): JSX.Element {
     <Layout>
       <Hero />
       <NearHostList hosts={hosts} />
+      <TryHosting />
     </Layout>
   );
 }
