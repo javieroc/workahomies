@@ -1,0 +1,1 @@
+export { PeopleStories } from './PeopleStories';

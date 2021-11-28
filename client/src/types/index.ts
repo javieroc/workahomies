@@ -1,1 +1,2 @@
-export { Host } from './host';
+export type { Host } from './host';
+export type { Story } from './story';

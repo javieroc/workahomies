@@ -1,0 +1,1 @@
+export { PeopleStoryCard } from './PeopleStoryCard';

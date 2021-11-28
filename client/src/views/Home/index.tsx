@@ -7,8 +7,10 @@ import NearHostImage3 from 'src/assets/near-host-3.jpeg';
 import NearHostImage4 from 'src/assets/near-host-4.jpeg';
 import NearHostImage5 from 'src/assets/near-host-5.jpeg';
 import NearHostImage6 from 'src/assets/near-host-6.jpeg';
-import { Host } from 'src/types';
-import { Hero, NearHostList, TryHosting } from './components';
+import { Host, Story } from 'src/types';
+import {
+  Hero, NearHostList, PeopleStories, TryHosting,
+} from './components';
 
 const hosts: Host[] = [
   NearHostImage1,
@@ -26,12 +28,24 @@ const hosts: Host[] = [
   profileImage: image,
 }));
 
+const stories: Story[] = Array(20)
+  .fill(0)
+  .map((_: number, index: number) => ({
+    brief: faker.lorem.paragraph(1),
+    id: faker.datatype.uuid(),
+    image: `https://source.unsplash.com/random/600x400?sig=${index}`,
+    location: faker.address.city(),
+    title: faker.name.jobTitle(),
+    user: faker.name.findName(),
+  }));
+
 function Home(): JSX.Element {
   return (
     <Layout>
       <Hero />
       <NearHostList hosts={hosts} />
       <TryHosting />
+      <PeopleStories stories={stories} />
     </Layout>
   );
 }
