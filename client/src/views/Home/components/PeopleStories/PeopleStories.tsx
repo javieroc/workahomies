@@ -11,7 +11,7 @@ function PeopleStories({ stories }: Props): JSX.Element {
   return (
     <Flex
       width="100%"
-      backgroundColor="gray.200"
+      backgroundColor="gray.50"
     >
       <VStack margin="64px auto" width="1306px">
         <Flex alignItems="center" width="100%" marginBottom="16px">

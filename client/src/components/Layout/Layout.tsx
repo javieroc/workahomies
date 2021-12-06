@@ -1,5 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react';
+import { Footer } from '../Footer';
+import { Links } from '../Links';
 import { Navbar } from '../Navbar';
 
 interface Props {
@@ -9,12 +11,12 @@ interface Props {
 function Layout({ children }: Props): JSX.Element {
   return (
     <Box>
-      <Box>
-        <Navbar />
-      </Box>
+      <Navbar />
       <Box>
         {children}
       </Box>
+      <Links />
+      <Footer />
     </Box>
   );
 }
