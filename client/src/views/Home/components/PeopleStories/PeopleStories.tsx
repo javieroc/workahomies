@@ -10,10 +10,11 @@ interface Props {
 function PeopleStories({ stories }: Props): JSX.Element {
   return (
     <Flex
-      width="100%"
       backgroundColor="gray.50"
+      justify="center"
+      padding={{ base: '16px', lg: '64px' }}
     >
-      <VStack margin="64px auto" width="1306px">
+      <VStack maxWidth="1306px" minWidth="200px">
         <Flex alignItems="center" width="100%" marginBottom="16px">
           <Heading size="lg" fontFamily="Gloria Hallelujah">People Stories</Heading>
         </Flex>

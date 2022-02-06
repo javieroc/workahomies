@@ -1,19 +1,48 @@
 import React from 'react';
-import { Flex } from '@chakra-ui/react';
+import {
+  Button,
+  Heading,
+  Flex,
+  Input,
+  InputGroup,
+  InputRightElement,
+  VStack,
+} from '@chakra-ui/react';
 import HeroImage from 'src/assets/hero.jpeg';
-import { Search } from './Search';
+import { SearchIcon } from '@chakra-ui/icons';
 
 function Hero(): JSX.Element {
   return (
     <Flex
       backgroundImage={`url(${HeroImage})`}
       width="100%"
-      height="400px"
+      height={{ base: '200px', md: '400px' }}
       backgroundSize="cover"
       backgroundPosition="bottom"
-      position="relative"
+      alignItems="center"
+      justifyContent="center"
     >
-      <Search />
+      <VStack
+        width="400px"
+        alignItems="flex-start"
+        spacing="16px"
+      >
+        <Heading size="lg" color="gray.800">Looking for a partner?</Heading>
+        <InputGroup size="lg">
+          <Input
+            placeholder="Where are you going?"
+            backgroundColor="white"
+            borderColor="gray.400"
+            borderRadius="25px"
+            size="lg"
+          />
+          <InputRightElement right="8px">
+            <Button colorScheme="pink" borderRadius="50%" width="40px" height="40px">
+              <SearchIcon />
+            </Button>
+          </InputRightElement>
+        </InputGroup>
+      </VStack>
     </Flex>
   );
 }

@@ -18,7 +18,7 @@ function NearHostCard({ host }: Props): JSX.Element {
           src={host.profileImage}
           borderRadius="md"
           boxSize="160px"
-          minWidth="160px"
+          minWidth="140px"
           height="160px"
           objectFit="cover"
         />

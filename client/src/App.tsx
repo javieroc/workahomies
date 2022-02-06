@@ -1,20 +1,22 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './views';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="*"
+          element={(
+            <main style={{ padding: '1rem' }}>
+              <p>Not found</p>
+            </main>
+)}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

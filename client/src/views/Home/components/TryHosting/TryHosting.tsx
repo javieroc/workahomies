@@ -12,7 +12,7 @@ function TryHosting(): JSX.Element {
       backgroundColor="gray.200"
       align="center"
       justifyContent="center"
-      padding="38px"
+      padding={{ base: '16px', lg: '64px' }}
     >
       <HStack
         spacing="24px"
@@ -26,6 +26,7 @@ function TryHosting(): JSX.Element {
           <Button colorScheme="purple" variant="outline">Learn More</Button>
         </VStack>
         <Image
+          display={{ base: 'none', md: 'flex' }}
           src={TryHostingImage}
           alt="Try Hosting"
           width="512px"
