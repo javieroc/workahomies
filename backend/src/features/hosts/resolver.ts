@@ -1,7 +1,7 @@
 import { Resolver, Query } from 'type-graphql';
 
 @Resolver()
-class UserResolver {
+class HostResolver {
   greeting: string;
 
   constructor() {
@@ -14,4 +14,4 @@ class UserResolver {
   }
 }
 
-export { UserResolver };
+export { HostResolver };
