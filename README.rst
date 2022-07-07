@@ -80,13 +80,12 @@ Los objetivos del proyecto son los siguientes:
 
 1. Crear un servicio que sea útil y sea aceptado por los usuarios a los que apunta,
 2. Crear en un tiempo corto una versión MVP que nos permita saber la aceptación de la propuesta.
-3.
 
 Objetivos personales:
 
 1. Crear en un tiempo corto una versión MVP que nos permita saber la aceptación de la propuesta.
 2. Aprender y diseñar una buen UI/UX utilizando corrientes de diseño trending como el Neobrutalism.
-3. Construir una aplicación
+3. Construir una aplicación.
 4. Aprender sobre desarrollo mobile.
 
 Obstáculos
@@ -120,18 +119,19 @@ Plan trabajo
 El plan de trabajo lo devidiremos en tres etapas:
 
 - Análisis de requerimientos: definiremos y detallaremos las features
-necesarias para completar el proyecto en su totalidad.
+  necesarias para completar el proyecto en su totalidad.
 - Análisis y diseño: se analizarán desde un punto de vista técnico la lista
-de features entregadas en la etapa anterior y definir el alcance del MVP.
-Luego se creará un modelo de la arquitectura, un modelo de datos y mockups
-de las vistas. Al final esta etapa tendremos un prototipo de la aplicación,
-modelo de datos, arquitectura y assets necesarios.
+  de features entregadas en la etapa anterior y definir el alcance del MVP.
+  Luego se creará un modelo de la arquitectura, un modelo de datos y mockups
+  de las vistas. Al final esta etapa tendremos un prototipo de la aplicación,
+  modelo de datos, arquitectura y assets necesarios.
 - Implementación: para la implementación seguiremos una metodología ágil
-un poco modificada de manera que nos permita trabajar de maneras más asincrona.
-Por eso es muy importante el detalle y reducir cualquier ambigüedad que pueda
-surgir en la etapa anterior.
+  un poco modificada de manera que nos permita trabajar de maneras más asincrona.
+  Por eso es muy importante el detalle y reducir cualquier ambigüedad que pueda
+  surgir en la etapa anterior.
 
 Cronograma de actividades:
+
 1. Análisis de requerimientos.
 2. Análisis y diseño: definir alcance.
 3. Análisis y diseño: crear diagrama con la arquitectura de la aplicación.
