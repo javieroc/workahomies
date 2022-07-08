@@ -129,6 +129,7 @@ El plan de trabajo lo devidiremos en tres etapas:
   un poco modificada de manera que nos permita trabajar de maneras más asincrona.
   Por eso es muy importante el detalle y reducir cualquier ambigüedad que pueda
   surgir en la etapa anterior.
+- Difusión: campaña de marketing.
 
 Cronograma de actividades:
 
@@ -138,20 +139,24 @@ Cronograma de actividades:
 4. Análisis y diseño: crear diagrama de datos.
 5. Análisis y diseño: crear mockups.
 6. Análisis y diseño: definir stack.
-7. Implementación: Setup del proyecto, repositorios.
-8. Implementación: Módulo de usuarios.
-9. Implementación: Módulo de autenticación (Auth0).
-10. Implementación: Módulo de profile de usuarios.
-11. Implementación: Módulo de verificación de ID.
-12. Implementación: Módulo de historias.
-13. Implementación: Home page.
-14. Implementación: user profile page.
-15. Implementación: searching page.
-16. Implementación: host detail page.
-17. Implementación: How it works page.
-18. Implementación: Experiences page.
-19. Implementación: About us page.
-
+7. Crear encuestas online para ver aceptación de la propuesta.
+8. Implementación: Setup del proyecto, repositorios.
+9. Implementación: Módulo de usuarios.
+10. Implementación: Módulo de autenticación (Auth0).
+11. Implementación: Módulo de profile de usuarios.
+12. Implementación: Módulo de verificación de ID.
+13. Implementación: Módulo de historias.
+14. Implementación: Home page.
+15. Implementación: user profile page.
+16. Implementación: searching page.
+17. Implementación: host detail page.
+18. Implementación: How it works page.
+19. Implementación: Experiences page.
+20. Implementación: About us page.
+21. Difusión: crear contenido audiovisual.
+22. Difusión: crear cuenta de instagram y página en facebook.
+23. Difusión: publicitar la app por redes.
+24. Difusión: contratar publicidad.
 
 Tabla de entregables y fechas
 
@@ -219,3 +224,18 @@ de manera remota, personas en sus ciudades haciendo teletrabajo buscando cambiar
 es el tipo de usuarios que necesitamos atraer. Usuarios que normalmente usarían aplicaciones como
 Meetup, Celebreak, Coachsurfing, Airbnb, es decir aplicaciones de comunidad y encuentro. Personas
 con edades entre los 20 y los 50 años que tengan un buen manejo de la tecnología.
+
+Mientras la implementación del proyecto va en curso, se obtendrán feedback sobre la propuesta
+usando pequeñas encuestas online que se compartirá en foros, grupos de telegram, grupos en
+Slack, y otras comunidades.
+
+Una véz terminada la primera versón del proyecto, por los mismos canales de comunicación se
+invitará a los potenciales usuarios a unirse a la plataforma. Se lanzará una campaña de publicidad
+a través de redes sociales junto a la de cuenta de instagram y página de facebook.
+
+En una tercera etapa con el feedback de las encuestas y las primeras impresiones sobre la aceptación
+del producto, se publicitará contratando publicidad en google para tener anuncios sobre todo en youtube,
+y otros medios digitales. Material audiovisual será necesario.
+
+Relevar métricas y tomar acciones en base a ellas, mejorar la estrategia de marketing o incluso
+rediseños en la app para mantener y captar más usuarios.
